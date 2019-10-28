@@ -6,19 +6,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -26,9 +26,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:gc'
       types:
         - 'Genomic'
 
@@ -42,7 +42,7 @@ genome_track_categories:
       track_category_id: 'short-variants'
       track_list:
         - label: '1000 Genomes all SNPs & indels'
-          track_id: 'track:variant'
+          track_id: 'homo_sapiens_GCA_000001405_27:track:variant'
       types:
         - 'Variation'
 
@@ -96,19 +96,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -116,9 +116,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:gc'
       types:
         - 'Genomic'
 
@@ -132,7 +132,7 @@ genome_track_categories:
       track_category_id: 'short-variants'
       track_list:
         - label: '1000 Genomes all SNPs & indels'
-          track_id: 'track:variant'
+          track_id: 'homo_sapiens_GCA_000001405_14:track:variant'
       types:
         - 'Variation'
 
@@ -186,19 +186,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -274,19 +274,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'saccharomyces_cerevisiae_GCA_000146045_2:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'saccharomyces_cerevisiae_GCA_000146045_2:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'saccharomyces_cerevisiae_GCA_000146045_2:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'saccharomyces_cerevisiae_GCA_000146045_2:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -362,19 +362,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -382,9 +382,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'escherichia_coli_str_k_12_substr_mg1655_GCA_000005845_2:track:gc'
       types:
         - 'Genomic'
 
@@ -450,19 +450,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -470,9 +470,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'caenorhabditis_elegans_GCA_000002985_3:track:gc'
       types:
         - 'Genomic'
 
@@ -538,19 +538,19 @@ genome_track_categories:
         - additional_info: 'Forward strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-fwd'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:gene-pc-fwd'
         - additional_info: 'Forward strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-fwd'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:gene-other-fwd'
         - additional_info: 'Reverse strand'
           color: 'DARK_GREY'
           label: 'Protein coding genes'
-          track_id: 'track:gene-pc-rev'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:gene-pc-rev'
         - additional_info: 'Reverse strand'
           color: 'GREY'
           label: 'Other genes'
-          track_id: 'track:gene-other-rev'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:gene-other-rev'
       types:
         - 'Genomic'
 
@@ -558,9 +558,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'plasmodium_falciparum_GCA_000002765_2:track:gc'
       types:
         - 'Genomic'
 
