@@ -206,9 +206,9 @@ genome_track_categories:
       track_category_id: 'assembly'
       track_list:
         - label: 'Contigs'
-          track_id: 'track:contig'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:contig'
         - label: '%GC'
-          track_id: 'track:gc'
+          track_id: 'triticum_aestivum_GCA_900519105_1:track:gc'
       types:
         - 'Genomic'
 
