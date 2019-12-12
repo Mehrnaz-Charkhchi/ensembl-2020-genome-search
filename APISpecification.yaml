@@ -172,8 +172,7 @@ paths:
     get:
       tags:
       - api
-      summary: Get object info for given object_id
-      description: Returns info for given object
+      summary: Get full information about a feature
       parameters:
       - name: feature_id
         in: query
@@ -206,8 +205,7 @@ paths:
     get:
       tags:
       - api
-      summary: Get object info for given object_id
-      description: Returns info for given object
+      summary: Get focus feature and list of features associated with it
       parameters:
       - name: feature_id
         in: query
