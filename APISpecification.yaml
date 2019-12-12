@@ -194,10 +194,10 @@ paths:
                 transcript-success:
                   $ref: '#/components/examples/feature-info-transcript-success'
         400:
-          description: Invalid Genome ID
+          description: Invalid feature ID
           content: {}
         404:
-          description: Genome ID not found
+          description: Could not find feature_id
           content: {}
       security:
       - api_key: []
@@ -227,10 +227,10 @@ paths:
                 transcript-success:
                   $ref: '#/components/examples/focus-feature-transcript-success'
         400:
-          description: Invalid Genome ID
+          description: Invalid feature_id
           content: {}
         404:
-          description: Genome ID not found
+          description: Could not find feature_id
           content: {}
       security:
       - api_key: []
