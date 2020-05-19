@@ -44,6 +44,10 @@ stages:
   - mkdir -p /etc/deploy
   - echo ${EMBASSY_KUBECONFIG} | base64 -d > ${KUBECONFIG}
 
+.deploy-wp-feature:
+  stage: deploy
+  image: dockerhub.ebi.ac.uk/kamal/deploy-tools:0.1
+
   script:
   - git clone https://gitlab.ebi.ac.uk/kamal/ensembl-client-caas-deploy.git
   - sed -i "s#<DOCKER_IMAGE>#${CONTAINER_IMAGE}#g" ensembl-client-caas-deploy/ensembl_genome_search_deployment.yaml
@@ -181,5 +185,20 @@ Feature:EHK-HH:
 
   only:
   - /^feature\/.*$/
+
+  when: manual
+
+  
+Feature:WP-HX:
+  extends: .deploy-wp-feature
+  environment:
+    name : wp-hx-dev
+  variables:
+    DEPLOYENV: ${CI_COMMIT_REF_SLUG}
+    CONTAINER_IMAGE: ${CI_REGISTRY_IMAGE}:${CI_COMMIT_SHORT_SHA}-${CI_COMMIT_REF_SLUG}
+
+  only:
+  - /^feature\/.*$/
+  - /^refactor\/.*$/
 
   when: manual
