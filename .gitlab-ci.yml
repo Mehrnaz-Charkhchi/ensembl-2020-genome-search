@@ -112,7 +112,6 @@ Docker-IMG:feature:
   only:
   - /^feature\/.*$/
 
-  when: manual
 
 # Deploy staging to EHK-HH cluster
 Staging:EHK-HH:
@@ -207,6 +206,7 @@ Feature:EHK-HH:
   - /^feature\/.*$/
 
   when: manual
+
 Feature:WP-HX:
   extends: .deploy-wp-feature
   environment:
